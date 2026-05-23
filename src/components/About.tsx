@@ -59,9 +59,11 @@ export default function About() {
               {t.about.p1}
             </p>
 
-            <p className="text-slate-600 text-lg leading-relaxed font-light">
-              {t.about.p2}
-            </p>
+            {t.about.p2 && (
+              <p className="text-slate-600 text-lg leading-relaxed font-light">
+                {t.about.p2}
+              </p>
+            )}
 
 
 
