@@ -1,26 +1,66 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-montserrat: var(--font-montserrat);
+  --font-be-vietnam-pro: var(--font-be-vietnam-pro);
+  
+  --color-pastel-pink: #FFD6E0;
+  --color-pastel-blue: #D8E2DC;
+  --color-pastel-lavender: #E8E8FF;
+  --color-pastel-green: #D6EADF;
+  --color-pastel-yellow: #F4F1DE;
+  
+  --color-accent-pink: #FF85A2;
+  --color-accent-blue: #70A2FF;
+  --color-accent-teal: #4EA8DE;
+  
+  --color-dark-text: #1E293B;
+  --color-light-bg: #FCFCFC;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #FFFFFF;
+  --foreground: #1E293B;
+}
+
+html, body {
+  scroll-behavior: smooth !important;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-be-vietnam-pro), sans-serif;
+  overflow-x: hidden;
+}
+
+.font-heading {
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+/* Safe backdrop blur fallback for older browsers */
+.backdrop-blur-premium {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAFAFA;
+}
+::-webkit-scrollbar-thumb {
+  background: #E2E8F0;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #CBD5E1;
+}
+
+/* Selection style */
+::selection {
+  background-color: #FFD6E0;
+  color: #1E293B;
 }
