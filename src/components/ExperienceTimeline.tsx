@@ -51,7 +51,7 @@ export default function ExperienceTimeline({ onSelectCard }: ExperienceTimelineP
     <section
       id="experience"
       ref={containerRef}
-      className="py-12 bg-slate-50/50 relative overflow-hidden"
+      className="pt-12 pb-6 md:pb-0 bg-slate-50/50 relative overflow-hidden"
     >
       {/* Background decorations */}
       <div className="absolute top-1/3 left-0 w-80 h-80 rounded-full bg-pastel-pink/30 blur-3xl -z-10" />
@@ -70,7 +70,7 @@ export default function ExperienceTimeline({ onSelectCard }: ExperienceTimelineP
         </div>
 
         {/* Desktop Winding Curved Layout (Visible on MD and above) */}
-        <div className="relative hidden md:block w-full h-[680px] mt-10">
+        <div className="relative hidden md:block w-full h-[590px] mt-10">
           
           {/* Timeline Winding SVG Line */}
           <div className="absolute inset-0 pointer-events-none">
