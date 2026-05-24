@@ -58,6 +58,7 @@ export interface TranslationSchema {
     title: string;
     p1: string;
     p2?: string;
+    p3?: string;
   };
   experience: {
     title: string;
@@ -116,12 +117,14 @@ export const content: {
     hero: {
       title: 'VŨ NGUYỄN HOÀNG OANH',
       role: 'Người kể chuyện',
-      quote: '"Tôi tin vào sức mạnh của những câu chuyện. Chúng ta kết nối với nhau, cùng tin vào những thứ vô hình thông qua những câu chuyện được kể qua nhiều thế hệ. Với tôi, phim ảnh là một công cụ kể chuyện quyền năng giúp tôi thấu hiểu chính mình và chạm vào người khác."',
+      quote: '"Mình tin vào sức mạnh của những câu chuyện. Chúng ta kết nối với nhau, cùng trải nghiệm các cung bậc cảm xúc và cùng tin vào những thứ vô hình thông qua những câu chuyện được kể từ đời này qua đời khác."',
       cta: 'Liên hệ hợp tác',
     },
     about: {
-      title: 'Câu chuyện của tôi',
-      p1: 'Bắt đầu sự nghiệp trong ngành marketing, tôi luôn bị cuốn hút bởi sức mạnh của những câu chuyện và dùng chúng như cầu nối để đưa thương hiệu đến gần hơn với khách hàng. Ngay trước đại dịch Covid, tôi quyết định rẽ hướng và dấn thân vào ngành phim từ con số 0. Sau nhiều năm ăn nằm với điện ảnh, tôi muốn tiếp tục kể những câu chuyện chạm đến cảm xúc khán giả, để lại cho họ những chiêm nghiêm, suy tư và trăn trở về cuộc sống. Không chỉ kể chuyện bằng cảm xúc hay góc nhìn cá nhân, tôi kể chuyện bằng tư duy của một người làm marketing, tôi dùng những kỹ năng phân tích thị trường và đặt khán giả làm trung tâm để tạo ra những kịch bản có tính thương mại cao.',
+      title: 'Tại sao mình đi làm phim?',
+      p1: 'Bắt đầu sự nghiệp trong ngành marketing, mình luôn thích dùng những câu chuyện để đưa thương hiệu đến gần với khách hàng. Và rồi mình nhận ra sự hấp dẫn của phim ảnh, chúng không chỉ kể chuyện, chúng đem đến cho mình những cảm xúc sống động, những suy tư, chiêm nghiệm về cuộc đời. Ngay trước đại dịch Covid, mình đã có quyết định bước ngoặc là dấn thân vào ngành phim từ con số 0.',
+      p2: 'Sau nhiều năm làm phim, mình hiểu hơn về bản thân và thế giới xung quanh. Mình thấy bản thân được trưởng thành và được trải nghiệm những phiên bản khác của chính mình. Vì vậy mình tiếp tục tìm cơ hội để được làm phim, được kể những câu chuyện chạm tới người khác và để lại cho họ những câu hỏi mà chính mình luôn trăn trở trong cuộc sống.',
+      p3: 'Khi làm phim thương mại, mình không chỉ kể chuyện bằng cảm xúc hay góc nhìn cá nhân, mình kể chuyện bằng tư duy của một người làm marketing, mình nhìn thị trường và đặt khán giả làm trung tâm để tạo ra những kịch bản có tính thương mại cao.',
     },
     experience: {
       title: 'Hành trình sự nghiệp',
@@ -458,12 +461,14 @@ export const content: {
     hero: {
       title: 'VU NGUYEN HOANG OANH',
       role: 'Storyteller',
-      quote: '"I believe in the power of stories. We connect with each other, believing in the invisible through stories told across generations. To me, cinema is a powerful storytelling tool that helps me understand myself and touch others."',
+      quote: '"I believe in the power of stories. We connect with each other, sharing emotional journeys and believing in the invisible through stories told from generation to generation."',
       cta: "Let's Collaborate",
     },
     about: {
-      title: 'My Story',
-      p1: 'Starting my career in marketing, I have always been fascinated by the power of stories, using them as bridges to bring brands closer to customers. Right before the Covid pandemic, I decided to pivot and step into the film industry from scratch. After years of living and breathing cinema, I want to continue telling stories that touch the audience\'s emotions, leaving them with reflections, contemplations, and introspection about life. Rather than telling stories solely through emotions or personal viewpoints, I tell stories with the mindset of a marketer, utilizing market analysis skills and keeping the audience at the center to create highly commercial screenplays.',
+      title: 'Why I Make Films',
+      p1: 'Starting my career in marketing, I always loved using stories to bring brands closer to customers. Then, I realized the allure of cinema—they don\'t just tell stories; they bring vivid emotions, deep reflections, and contemplations about life. Right before the Covid pandemic, I made a turning point decision to enter the film industry from scratch.',
+      p2: 'After years of filmmaking, I understand myself and the world around me better. I feel I have grown and experienced different versions of myself. Therefore, I continue to seek opportunities to make films, to tell stories that touch others, and to leave them with the questions that I always ponder in life.',
+      p3: 'When making commercial films, I don\'t just tell stories based on emotion or personal perspectives. I write with a marketer\'s mindset, analyzing the market and keeping the audience at the center to create screenplays with high commercial value.',
     },
     experience: {
       title: 'Career Journey',

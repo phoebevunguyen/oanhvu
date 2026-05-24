@@ -65,6 +65,12 @@ export default function About() {
               </p>
             )}
 
+            {t.about.p3 && (
+              <p className="text-slate-600 text-lg leading-relaxed font-light">
+                {t.about.p3}
+              </p>
+            )}
+
 
 
           </motion.div>

@@ -22,6 +22,11 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
         >
+          {/* Title */}
+          <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-slate-800 leading-[1.1]">
+            <span className="block">{t.hero.title}</span>
+          </h1>
+
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-pastel-pink/50 border border-pastel-pink text-slate-800 px-4 py-1.5 rounded-full w-fit">
             <Sparkles size={14} className="text-accent-pink animate-spin duration-[4000ms]" />
@@ -29,11 +34,6 @@ export default function Hero() {
               {t.hero.role}
             </span>
           </div>
-
-          {/* Title */}
-          <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-slate-800 leading-[1.1]">
-            <span className="block">{t.hero.title}</span>
-          </h1>
 
           {/* Quote Panel */}
           <div className="relative border-l-4 border-pastel-pink pl-6 py-2 my-2">

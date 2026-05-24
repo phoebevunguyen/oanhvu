@@ -33,7 +33,7 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-white/80 border-b border-slate-100 shadow-xs backdrop-blur-premium py-3'
+          ? 'bg-white/95 border-b border-slate-100 shadow-xs backdrop-blur-premium py-3'
           : 'bg-transparent py-5'
       }`}
     >
@@ -41,10 +41,7 @@ export default function Navbar() {
         {/* Logo / Brand Name */}
         <a href="#" className="flex flex-col">
           <span className="font-heading text-lg md:text-xl font-bold tracking-wider text-slate-800 leading-none">
-            {language === 'vn' ? 'VŨ NGUYỄN HOÀNG OANH' : 'PHOEBE VU NGUYEN'}
-          </span>
-          <span className="text-[10px] uppercase tracking-widest text-accent-pink font-semibold mt-1">
-            {t.hero.role}
+            HoangOanh
           </span>
         </a>
 
