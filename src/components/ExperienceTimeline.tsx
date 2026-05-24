@@ -11,7 +11,7 @@ interface ExperienceTimelineProps {
 }
 
 export default function ExperienceTimeline({ onSelectCard }: ExperienceTimelineProps) {
-  const { t, experiences } = useLanguage();
+  const { language, t, experiences } = useLanguage();
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Set up scroll tracking for the timeline line drawing
@@ -51,7 +51,7 @@ export default function ExperienceTimeline({ onSelectCard }: ExperienceTimelineP
     <section
       id="experience"
       ref={containerRef}
-      className="py-24 bg-slate-50/50 relative overflow-hidden"
+      className="py-12 bg-slate-50/50 relative overflow-hidden"
     >
       {/* Background decorations */}
       <div className="absolute top-1/3 left-0 w-80 h-80 rounded-full bg-pastel-pink/30 blur-3xl -z-10" />
@@ -59,7 +59,7 @@ export default function ExperienceTimeline({ onSelectCard }: ExperienceTimelineP
 
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* Section Header */}
-        <div className="text-center mb-16 flex flex-col items-center">
+        <div className="text-center mb-8 flex flex-col items-center">
           <div className="flex items-center space-x-2 bg-pastel-blue/40 border border-pastel-blue px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest text-slate-700 mb-4">
             <Briefcase size={12} className="text-accent-blue" />
             <span>{t.nav.experience}</span>
@@ -141,6 +141,16 @@ export default function ExperienceTimeline({ onSelectCard }: ExperienceTimelineP
                     <p className="text-xs font-medium text-slate-400 mt-1 truncate">
                       {item.company}
                     </p>
+
+                    {/* Hover Overlay */}
+                    <div className="absolute inset-0 bg-slate-900/5 backdrop-blur-[1px] opacity-0 group-hover:opacity-100 flex items-center justify-center transition-all duration-300 pointer-events-none">
+                      <div className="bg-white/95 shadow-sm border border-slate-100 px-3.5 py-1.5 rounded-full flex items-center space-x-1.5 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                        <Eye size={12} className="text-accent-pink" />
+                        <span className="text-[10px] font-semibold text-slate-700 tracking-wide">
+                          {language === 'vn' ? 'Xem chi tiết' : 'View details'}
+                        </span>
+                      </div>
+                    </div>
                   </motion.div>
                 </div>
 
@@ -192,7 +202,7 @@ export default function ExperienceTimeline({ onSelectCard }: ExperienceTimelineP
                 {/* Card */}
                 <motion.div
                   onClick={() => onSelectCard(item)}
-                  className="w-full bg-white border border-slate-100 p-5 rounded-2xl shadow-xs hover:shadow-md hover:border-pastel-pink transition-all duration-300 cursor-pointer group"
+                  className="w-full bg-white border border-slate-100 p-5 rounded-2xl shadow-xs hover:shadow-md hover:border-pastel-pink transition-all duration-300 cursor-pointer group relative overflow-hidden"
                   initial={{ opacity: 0, x: 20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
@@ -210,6 +220,16 @@ export default function ExperienceTimeline({ onSelectCard }: ExperienceTimelineP
                   <p className="text-xs font-medium text-slate-400 mt-1">
                     {item.company}
                   </p>
+
+                  {/* Hover Overlay */}
+                  <div className="absolute inset-0 bg-slate-900/5 backdrop-blur-[1px] opacity-0 group-hover:opacity-100 flex items-center justify-center transition-all duration-300 pointer-events-none">
+                    <div className="bg-white/95 shadow-sm border border-slate-100 px-3.5 py-1.5 rounded-full flex items-center space-x-1.5 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                      <Eye size={12} className="text-accent-pink" />
+                      <span className="text-[10px] font-semibold text-slate-700 tracking-wide">
+                        {language === 'vn' ? 'Xem chi tiết' : 'View details'}
+                      </span>
+                    </div>
+                  </div>
                 </motion.div>
               </div>
             );

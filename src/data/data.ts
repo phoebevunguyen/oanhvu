@@ -122,8 +122,8 @@ export const content: {
     },
     about: {
       title: 'Tại sao mình làm phim?',
-      p1: 'Bắt đầu sự nghiệp trong ngành marketing, mình luôn thích dùng những câu chuyện để đưa sản phẩm đến gần với khách hàng. Và rồi mình nhận ra sự hấp dẫn của phim ảnh, chúng không chỉ kể chuyện, chúng đem đến cho mình những cảm xúc sống động, những suy tư, chiêm nghiệm về cuộc đời. Ngay trước đại dịch Covid, mình đã có quyết định bước ngoặc là dấn thân vào ngành phim từ con số 0.',
-      p2: 'Sau nhiều năm làm phim, mình hiểu hơn về bản thân và thế giới xung quanh. Mình thấy bản thân được trưởng thành và được trải nghiệm những phiên bản khác của chính mình. Vì vậy mình tiếp tục tìm cơ hội để được làm phim, được kể những câu chuyện chạm tới người khác và để lại cho họ những câu hỏi mà chính mình luôn trăn trở trong cuộc sống.',
+      p1: 'Bắt đầu sự nghiệp trong ngành marketing, mình luôn thích dùng những câu chuyện để đưa sản phẩm đến gần với khách hàng. Và rồi mình bị hấp dẫn bởi khả năng kể chuyện của phim ảnh. Phim ảnh không chỉ kể chuyện mà còn đem đến cho mình cho mình những trải nghiệm cảm xúc sống động, những suy tư và chiêm nghiệm về cuộc đời. Ngay trước đại dịch Covid, mình đã có quyết định bước ngoặc là dấn thân vào ngành phim từ con số 0.',
+      p2: 'Những năm tháng làm phim giúp mình thấu hiểu bản thân và thế giới xung quanh một cách sâu sắc hơn, giúp mình trưởng thành và rộng mở hơn. Vì vậy mình tiếp tục tìm cơ hội để được làm phim, được kể những câu chuyện chạm tới người khác và để lại cho họ câu hỏi trăn trở mà chính mình cũng có trong cuộc sống.',
       p3: 'Khi làm phim thương mại, mình không chỉ kể chuyện bằng cảm xúc hay góc nhìn cá nhân, mình kể chuyện bằng tư duy của một người làm marketing, mình nhìn thị trường và đặt khán giả làm trung tâm để tạo ra những kịch bản có tính thương mại cao.',
     },
     experience: {
@@ -168,7 +168,7 @@ export const content: {
     experiences: [
       {
         id: 'exp1',
-        role: 'Freelance Screenwriter',
+        role: 'Biên kịch tự do',
         company: 'Freelance',
         duration: '2025 - Hiện tại',
         details: [
@@ -179,7 +179,7 @@ export const content: {
       },
       {
         id: 'exp2',
-        role: 'Biên kịch (Screenwriter)',
+        role: 'Biên kịch',
         company: '89sGroup',
         duration: '2020 - 2025',
         details: [
@@ -190,7 +190,7 @@ export const content: {
       },
       {
         id: 'exp3',
-        role: 'Freelance Content Marketing',
+        role: 'Freelance Content Marketing Specialist',
         company: 'Freelance',
         duration: '2017 - 2020',
         details: [
@@ -480,9 +480,9 @@ export const content: {
     },
     about: {
       title: 'Why I Make Films',
-      p1: 'Starting my career in marketing, I always loved using stories to bring products closer to customers. Then, I realized the allure of cinema—they don\'t just tell stories; they bring vivid emotions, deep reflections, and contemplations about life. Right before the Covid pandemic, I made a turning point decision to enter the film industry from scratch.',
-      p2: 'After years of filmmaking, I understand myself and the world around me better. I feel I have grown and experienced different versions of myself. Therefore, I continue to seek opportunities to make films, to tell stories that touch others, and to leave them with the questions that I always ponder in life.',
-      p3: 'When making commercial films, I don\'t just tell stories based on emotion or personal perspectives. I write with a marketer\'s mindset, analyzing the market and keeping the audience at the center to create screenplays with high commercial value.',
+      p1: 'Starting my career in marketing, I always loved using stories to bring products closer to customers. Then, I was captivated by the storytelling power of cinema. Films do not just tell stories; they bring me vivid emotional experiences, deep reflections, and contemplations about life. Right before the Covid pandemic, I made a turning point decision to enter the film industry from scratch.',
+      p2: 'Years of filmmaking have helped me understand myself and the world around me more deeply, helping me grow and become more open-minded. Therefore, I continue to seek opportunities to make films, to tell stories that touch others, and to leave them with the lingering questions that I also have in my own life.',
+      p3: 'When making commercial films, I don\'t just tell stories based on emotion or personal perspectives. I tell stories with a marketer\'s mindset, analyzing the market and keeping the audience at the center to create screenplays with high commercial value.',
     },
     experience: {
       title: 'Career Journey',
@@ -548,7 +548,7 @@ export const content: {
       },
       {
         id: 'exp3',
-        role: 'Freelance Content Marketing',
+        role: 'Freelance Content Marketing Specialist',
         company: 'Freelance',
         duration: '2017 - 2020',
         details: [
