@@ -4,6 +4,8 @@ export interface ExperienceItem {
   company: string;
   duration: string;
   details: string[];
+  companyUrl?: string;
+  companyDescription?: string;
 }
 
 export interface ProjectItem {
@@ -190,7 +192,7 @@ export const content: {
       },
       {
         id: 'exp3',
-        role: 'Freelance Content Marketing Specialist',
+        role: 'Freelance Marketing Specialist',
         company: 'Freelance',
         duration: '2017 - 2020',
         details: [
@@ -205,20 +207,25 @@ export const content: {
         id: 'exp4',
         role: 'Marketing Supervisor',
         company: 'Saigon Innovation Hub',
+        companyUrl: 'https://sihub.gov.vn/',
+        companyDescription: 'Saigon Innovation Hub là dự án của chính phủ nhằm thúc đẩy cộng đồng khởi nghiệp và đổi mới sáng tạo thông qua việc hỗ trợ không gian làm việc, tổ chức sự kiện, kết nối nguồn nhân lực, cố vấn và nhà đầu tư.',
         duration: '2016 - 2017',
         details: [
-          'Lập kế hoạch và thực hiện các kế hoạch truyền thông thương hiệu tích hợp (Sự kiện, PR, Email, Mạng xã hội) cho các sáng kiến startup do chính phủ dẫn dắt.',
-          'Tối ưu hóa vận hành: Phát triển ứng dụng đặt phòng trực tuyến custom, tiết kiệm 40% tài nguyên vận hành và chuẩn hóa quy trình dịch vụ cộng đồng.'
+          'Lập kế hoạch và triển khai các hoạt động marketing và truyền thông trên 4 kênh chính gồm: sự kiện, PR, email marketing và Facebook fanpage.',
+          'Xây dựng web-app đặt phòng giúp SIHUB và cộng đồng startup, giúp tiết kiệm ít nhất 40% thời gian và nguồn lực trong quá trình vận hành',
+          'Tổ chức hội thảo/workshop/bootcamp hàng tuần với tỷ lệ kín chỗ cao. Một số chương trình tiêu biểu gồm: Leader’s Project Bootcamp, IPP TOT Bootcamp và chuỗi sự kiện Startup Night.'
         ],
       },
       {
         id: 'exp5',
         role: 'Digital Marketing Executive',
         company: 'YouNet Group',
+        companyUrl: 'https://www.younetgroup.com/vi/',
+        companyDescription: 'YouNet Group là đơn vị cung cấp hệ sinh thái giải pháp social media toàn diện và hàng đầu cho doanh nghiệp tại Đông Nam Á.',
         duration: '2015 - 2016',
         details: [
-          'Ứng dụng Social Listening tools (YouNet, Buzzmetrics) cho market research và phân tích đối thủ cạnh tranh, chuyển đổi dữ liệu thô thành strategic brand insights và high-impact infographics.',
-          'Phân tích brand sentiment và tracking cho clients (Kimberly-Clark, Orion, Vinasoy).'
+          'Xây dựng và quản lý chiến lược nội dung trên social media cho các công ty thành viên, triển khai các hoạt động marketing tích hợp phù hợp với KPI kinh doanh.',
+          'Phân tích dữ liệu & Social Listening: Sử dụng các công cụ social listening và CRM của công ty (YouNet, Buzzmetrics, Social Care) để nghiên cứu thị trường, phân tích đối thủ cạnh tranh và theo dõi brand sentiment cho các khách hàng như Kimberly-Clark, Orion và Vinasoy. Chuyển đổi dữ liệu thô thành các báo cáo insight chuyên sâu và đề xuất chiến lược marketing.'
         ],
       },
     ],
@@ -548,7 +555,7 @@ export const content: {
       },
       {
         id: 'exp3',
-        role: 'Freelance Content Marketing Specialist',
+        role: 'Freelance Marketing Specialist',
         company: 'Freelance',
         duration: '2017 - 2020',
         details: [
@@ -563,20 +570,25 @@ export const content: {
         id: 'exp4',
         role: 'Marketing Supervisor',
         company: 'Saigon Innovation Hub',
+        companyUrl: 'https://sihub.gov.vn/',
+        companyDescription: 'Saigon Innovation Hub is a government initiative aimed at fostering the startup and innovation community by supporting co-working spaces, organizing events, connecting human resources, mentors, and investors.',
         duration: '2016 - 2017',
         details: [
-          'Planned and executed integrated brand communication plans (Events, PR, Email, Social) for government-led startup initiatives.',
-          'Operational Optimization: Developed a custom room-booking web-app, saving 40% in operational resources and standardizing community service workflows.'
+          'Planned and executed marketing and communication activities across 4 main channels: events, PR, email marketing, and Facebook fanpage.',
+          'Developed a room-booking web-app for SIHUB and the startup community, saving at least 40% of operational time and resources.',
+          'Organized weekly seminars/workshops/bootcamps with high capacity rates. Key programs include: Leader\'s Project Bootcamp, IPP TOT Bootcamp, and Startup Night series.'
         ],
       },
       {
         id: 'exp5',
         role: 'Digital Marketing Executive',
         company: 'YouNet Group',
+        companyUrl: 'https://www.younetgroup.com/',
+        companyDescription: 'YouNet Group is a leading provider of comprehensive social media solutions and ecosystem for businesses in Southeast Asia.',
         duration: '2015 - 2016',
         details: [
-          'Applied Social Listening tools (YouNet, Buzzmetrics) for market research and competitor analysis, transforming raw data into strategic brand insights and high-impact infographics.',
-          'Analyzed and tracked brand sentiment for major clients (Kimberly-Clark, Orion, Vinasoy).'
+          'Build and manage social media content strategy for member companies, deploying integrated marketing activities aligned with business KPIs.',
+          'Data Analysis & Social Listening: Leverage corporate social listening and CRM tools (YouNet, Buzzmetrics, Social Care) for market research, competitor analysis, and brand sentiment tracking for clients including Kimberly-Clark, Orion, and Vinasoy. Convert raw data into in-depth insight reports and strategic marketing recommendations.'
         ],
       },
     ],

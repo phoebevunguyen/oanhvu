@@ -115,7 +115,23 @@ export default function DetailModal({ isOpen, onClose, item }: DetailModalProps)
                 </h3>
                 
                 <p className="text-md font-semibold text-slate-500 mt-1">
-                  {isProject(item) ? `${t.portfolio.role}: ${item.role}` : item.company}
+                  {isProject(item) ? (
+                    `${t.portfolio.role}: ${item.role}`
+                  ) : (
+                    item.companyUrl ? (
+                      <a
+                        href={item.companyUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-accent-blue hover:text-accent-blue/80 hover:underline inline-flex items-center gap-1.5 cursor-pointer"
+                      >
+                        {item.company}
+                        <ExternalLink size={14} className="inline" />
+                      </a>
+                    ) : (
+                      item.company
+                    )
+                  )}
                 </p>
               </div>
 
@@ -148,6 +164,18 @@ export default function DetailModal({ isOpen, onClose, item }: DetailModalProps)
 
                 {isExperience(item) && (
                   <div className="space-y-4">
+                    {item.companyDescription && (
+                      <div className="space-y-2 bg-slate-50 border border-slate-100 p-4 rounded-2xl">
+                        <h4 className="text-xs font-bold text-slate-500 uppercase tracking-widest flex items-center space-x-2">
+                          <Info size={14} className="text-accent-blue" />
+                          <span>{t.portfolio.tabs.released === 'Phim đã phát hành' ? 'THÔNG TIN DOANH NGHIỆP' : 'COMPANY PROFILE'}</span>
+                        </h4>
+                        <p className="text-slate-600 text-sm leading-relaxed font-light italic">
+                          {item.companyDescription}
+                        </p>
+                      </div>
+                    )}
+
                     <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest flex items-center space-x-2">
                       <Info size={14} className="text-accent-blue" />
                       <span>{t.portfolio.tabs.released === 'Phim đã phát hành' ? 'CHI TIẾT CÔNG VIỆC' : 'RESPONSIBILITIES & ACHIEVEMENTS'}</span>
