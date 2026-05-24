@@ -241,7 +241,7 @@ export const content: {
         categoryLabel: 'Phim điện ảnh',
         summary: 'Bộ phim điện ảnh hài hước, kịch tính xoay quanh các phi vụ lừa đảo tinh vi, những cú lừa lém lỉnh giữa các tay lừa đảo chuyên nghiệp. Phim chiếu rạp thu hút sự quan tâm lớn của khán giả cả nước và đạt mốc doanh thu trăm tỷ cực kỳ ấn tượng.',
         poster: '/images/sieulaygapsieulua-poster.jpg',
-        gallery: ['/images/sieulaygapsieulua-hinh1.JPG', '/images/sieulaygapsieulua-hinh2.jpg', '/images/sieulaygapsieulua-hinh3.jpg', '/images/sieulaygapsieulua-hinh4.jpg'],
+        gallery: ['/images/sieulaygapsieulua-hinh1.jpg', '/images/sieulaygapsieulua-hinh2.jpg', '/images/sieulaygapsieulua-hinh3.jpg', '/images/sieulaygapsieulua-hinh4.jpg'],
         links: {
           imdb: 'https://www.imdb.com/title/tt26938241',
           netflix: 'https://www.netflix.com/watch/81676438',
@@ -258,7 +258,7 @@ export const content: {
         categoryLabel: 'Phim điện ảnh',
         summary: 'Tác phẩm phim điện ảnh kinh dị lấy cảm hứng từ câu chuyện dân gian "Chó đội nón mê". Phim đi sâu khai thác những góc tối của con người, nghiệp báo gia đình và đạt tiếng vang lớn với doanh thu ấn tượng 108 tỷ VNĐ.',
         poster: '/images/quycau-poster.jpg',
-        gallery: ['/images/QuyCau-hinh1.jpg', '/images/quycau-hinh2.jpg', '/images/quycau-hinh3.jpg'],
+        gallery: ['/images/quycau-hinh1.jpg', '/images/quycau-hinh2.jpg', '/images/quycau-hinh3.jpg'],
         links: {
           imdb: 'https://www.imdb.com/title/tt30611573/?ref_=fn_t_1',
           galaxyPlay: 'https://galaxyplay.vn/title/quy-cau',
@@ -604,7 +604,7 @@ export const content: {
         categoryLabel: 'Feature Film',
         summary: 'A clever comedy-heist theatrical movie following sophisticated team of tricksters pulling off high-stakes operations. It captured the public\'s attention, breaking records with an impressive 121B VND gross earnings.',
         poster: '/images/sieulaygapsieulua-poster.jpg',
-        gallery: ['/images/sieulaygapsieulua-hinh1.JPG', '/images/sieulaygapsieulua-hinh2.jpg', '/images/sieulaygapsieulua-hinh3.jpg', '/images/sieulaygapsieulua-hinh4.jpg'],
+        gallery: ['/images/sieulaygapsieulua-hinh1.jpg', '/images/sieulaygapsieulua-hinh2.jpg', '/images/sieulaygapsieulua-hinh3.jpg', '/images/sieulaygapsieulua-hinh4.jpg'],
         links: {
           imdb: 'https://www.imdb.com/title/tt26938241',
           netflix: 'https://www.netflix.com/watch/81676438',
@@ -621,7 +621,7 @@ export const content: {
         categoryLabel: 'Feature Film',
         summary: 'A theatrical psychological horror film inspired by the spooky local urban legend "Chó đội nón mê". Exploring dark karma and family curses, it became a box office phenomenon, crossing the 108B VND milestone.',
         poster: '/images/quycau-poster.jpg',
-        gallery: ['/images/QuyCau-hinh1.jpg', '/images/quycau-hinh2.jpg', '/images/quycau-hinh3.jpg'],
+        gallery: ['/images/quycau-hinh1.jpg', '/images/quycau-hinh2.jpg', '/images/quycau-hinh3.jpg'],
         links: {
           imdb: 'https://www.imdb.com/title/tt30611573/?ref_=fn_t_1',
           galaxyPlay: 'https://galaxyplay.vn/title/quy-cau',
