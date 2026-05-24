@@ -352,6 +352,7 @@ export const content: {
         categoryLabel: 'Phim điện ảnh',
         summary: 'Tác phẩm điện ảnh mang yếu tố kỳ ảo, tâm linh giả tưởng đầy sáng tạo xoay quanh những người làm nhiệm vụ giải nghiệp cho nhân gian.',
         poster: '/images/linhtram-poster.jpg',
+        photos: ['/images/linhtram-hinh1.jpg'],
       },
       {
         id: 'proj10',
@@ -700,6 +701,7 @@ export const content: {
         categoryLabel: 'Feature Film',
         summary: 'A highly imaginative spiritual fantasy feature film centering around spiritual agents tasked with balancing human karma.',
         poster: '/images/linhtram-poster.jpg',
+        photos: ['/images/linhtram-hinh1.jpg'],
       },
       {
         id: 'proj10',

@@ -176,12 +176,12 @@ export default function DetailModal({ isOpen, onClose, item }: DetailModalProps)
                     {item.photos.slice(0, 2).map((photo, idx) => (
                       <div 
                         key={idx} 
-                        className="relative overflow-hidden bg-slate-50 border border-slate-100 w-full max-w-[240px] aspect-square rounded-none mx-auto"
+                        className="relative overflow-hidden bg-slate-50 border border-slate-100 w-full max-w-[240px] aspect-[4/3] rounded-none mx-auto"
                       >
                         <img 
                           src={photo} 
                           alt={`Gallery photo ${idx + 1}`} 
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-contain"
                         />
                       </div>
                     ))}
