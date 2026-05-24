@@ -173,23 +173,23 @@ export default function DetailModal({ isOpen, onClose, item }: DetailModalProps)
                     {t.portfolio.tabs.released === 'Phim đã phát hành' ? 'HÌNH ẢNH MINH HỌA' : 'GALLERY / PORTFOLIO IMAGES'}
                   </h4>
                 )}
-                <div className={`grid gap-6 ${isProject(item) ? 'grid-cols-1' : 'grid-cols-1 sm:grid-cols-3'}`}>
-                  {[0, 1, 2].map((idx) => {
+                <div className={`grid gap-4 ${isProject(item) ? 'grid-cols-2' : 'grid-cols-1 sm:grid-cols-3'}`}>
+                  {(isProject(item) ? [0, 1] : [0, 1, 2]).map((idx) => {
                     const photo = isProject(item) && item.photos && item.photos[idx];
                     if (photo) {
                       return (
                         <div 
                           key={idx} 
-                          className={`relative rounded-2xl overflow-hidden shadow-2xs mx-auto ${
+                          className={`relative overflow-hidden shadow-2xs mx-auto bg-slate-50 border border-slate-100 ${
                             isProject(item) 
-                              ? 'w-full max-w-md aspect-[16/10]' 
-                              : 'aspect-video sm:aspect-square md:h-52'
+                              ? 'w-full max-w-[240px] aspect-square rounded-none' 
+                              : 'w-full aspect-video sm:aspect-square md:h-52 rounded-2xl'
                           }`}
                         >
                           <img 
                             src={photo} 
                             alt={`Gallery photo ${idx + 1}`} 
-                            className="w-full h-full object-contain"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       );
@@ -197,10 +197,10 @@ export default function DetailModal({ isOpen, onClose, item }: DetailModalProps)
                     return (
                       <div
                         key={idx}
-                        className={`bg-slate-50 border-2 border-dashed border-slate-200 rounded-2xl flex flex-col items-center justify-center text-slate-300 hover:bg-slate-100/80 transition-colors shadow-2xs mx-auto ${
+                        className={`bg-slate-50 border-2 border-dashed border-slate-200 flex flex-col items-center justify-center text-slate-300 hover:bg-slate-100/80 transition-colors shadow-2xs mx-auto ${
                           isProject(item) 
-                            ? 'w-full max-w-md aspect-[16/10] p-6' 
-                            : 'aspect-video sm:aspect-square md:h-52 p-6'
+                            ? 'w-full max-w-[240px] aspect-square rounded-none p-4' 
+                            : 'w-full aspect-video sm:aspect-square md:h-52 rounded-2xl p-6'
                         }`}
                       >
                         <svg 
