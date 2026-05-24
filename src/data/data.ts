@@ -17,7 +17,7 @@ export interface ProjectItem {
   categoryLabel: string;
   summary: string;
   poster?: string;
-  photos?: string[];
+  gallery: string[];
   links?: {
     imdb?: string;
     netflix?: string;
@@ -234,7 +234,7 @@ export const content: {
         categoryLabel: 'Phim điện ảnh',
         summary: 'Bộ phim điện ảnh hài hước, kịch tính xoay quanh các phi vụ lừa đảo tinh vi, những cú lừa lém lỉnh giữa các tay lừa đảo chuyên nghiệp. Phim chiếu rạp thu hút sự quan tâm lớn của khán giả cả nước và đạt mốc doanh thu trăm tỷ cực kỳ ấn tượng.',
         poster: '/images/sieulaygapsieulua-poster.jpg',
-        photos: ['/images/Sieulaygapsieulua-hinh1.jpg', '/images/sieulaygapsieulua-hinh2.jpg'],
+        gallery: ['/images/sieulaygapsieulua-hinh1.JPG', '/images/sieulaygapsieulua-hinh2.jpg', '/images/sieulaygapsieulua-hinh3.jpg', '/images/sieulaygapsieulua-hinh4.jpg'],
         links: {
           imdb: 'https://www.imdb.com/title/tt26938241',
           netflix: 'https://www.netflix.com/watch/81676438',
@@ -251,7 +251,7 @@ export const content: {
         categoryLabel: 'Phim điện ảnh',
         summary: 'Tác phẩm phim điện ảnh kinh dị lấy cảm hứng từ câu chuyện dân gian "Chó đội nón mê". Phim đi sâu khai thác những góc tối của con người, nghiệp báo gia đình và đạt tiếng vang lớn với doanh thu ấn tượng 108 tỷ VNĐ.',
         poster: '/images/quycau-poster.jpg',
-        photos: ['/images/quycau-hinh1.jpg', '/images/quycau-hinh2.jpg'],
+        gallery: ['/images/QuyCau-hinh1.jpg', '/images/quycau-hinh2.jpg', '/images/quycau-hinh3.jpg'],
         links: {
           imdb: 'https://www.imdb.com/title/tt30611573/?ref_=fn_t_1',
           galaxyPlay: 'https://galaxyplay.vn/title/quy-cau',
@@ -268,6 +268,7 @@ export const content: {
         categoryLabel: 'Phim truyền hình',
         summary: 'Bộ phim truyền hình dài tập xoay quanh hành trình khởi nghiệp, va vấp cuộc đời và các mối quan hệ tình cảm, gia đình phức tạp của thế hệ trẻ ngày nay. Tác phẩm mang thông điệp tích cực và định hướng giá trị cuộc sống sâu sắc.',
         poster: '/images/tuoitregiabaonhieu-poster.jpg',
+        gallery: [],
         links: {
           youtube: 'https://www.youtube.com/playlist?list=PLL0b_qIPgmjAdUmi2tn3tkK4ySvHruFKz',
         },
@@ -283,6 +284,7 @@ export const content: {
         categoryLabel: 'Web Series',
         summary: 'Chuỗi phim hài ngắn (Web Series) vui nhộn phản ánh các vấn đề thời sự, xu hướng và những câu chuyện hài hước dở khóc dở cười đời thường, thu hút hàng triệu lượt xem trên các nền tảng số.',
         poster: '/images/thoitoicankhongkip-poster.jpg',
+        gallery: [],
         links: {
           galaxyPlay: 'https://fptplay.vn/xem-video/thoi-toi-can-khong-kip-672c3af11c6b4a7226e01c77',
         },
@@ -298,7 +300,7 @@ export const content: {
         categoryLabel: 'Phim ngắn',
         summary: 'Tác phẩm phim ngắn đầy xúc động về tình mẫu tử thiêng liêng và những nỗ lực thầm lặng của người mẹ. Bộ phim đã xuất sắc thuyết phục hội đồng nghệ thuật để giành giải thưởng cao nhất của cuộc thi.',
         poster: '/images/thientaicuame-poster.png',
-        photos: ['/images/thientaicuame-hinh1.jpg'],
+        gallery: ['/images/thientaicuame-hinh1.jpg', '/images/thientaicuame-hinh2.JPG'],
         links: {
           facebook: 'https://www.facebook.com/watch/?v=193821789671396',
         },
@@ -314,6 +316,7 @@ export const content: {
         categoryLabel: 'Phim ngắn',
         summary: 'Phim ngắn thử nghiệm với định dạng màn hình dọc độc đáo, khai thác câu chuyện tâm lý gia đình đầy tinh tế và nghệ thuật kể chuyện súc tích, mang lại hiệu ứng hình ảnh xuất sắc.',
         poster: '/images/Mexinloi-poster.jpg',
+        gallery: ['/images/mexinloi-hinh1.JPG', '/images/mexinloi-hinh2.JPG'],
         links: {
           tiktok: 'https://www.tiktok.com/@n.h.p120499/video/7156594876581219586?is_from_webapp=1&sender_device=pc&web_id=7359233908725351954',
         },
@@ -329,6 +332,7 @@ export const content: {
         categoryLabel: 'Phim điện ảnh',
         summary: 'Phần hậu truyện vô cùng được mong đợi của bộ phim hành động võ thuật kinh điển Việt Nam "Dòng Máu Anh Hùng" (2007). Dự án hứa hẹn sẽ mang đến những pha hành động đỉnh cao kết hợp câu chuyện lịch sử hào hùng, sâu sắc.',
         poster: '/images/dongmauanhhung2-poster.jpg',
+        gallery: ['/images/dongmauanhhung2-hinh1.jpg'],
       },
       {
         id: 'proj8',
@@ -340,6 +344,7 @@ export const content: {
         category: 'upcoming',
         categoryLabel: 'Phim điện ảnh',
         summary: 'Tác phẩm điện ảnh kỳ bí, giật gân lấy bối cảnh vùng tâm linh Núi Cấm huyền bí. Câu chuyện đi sâu giải mã vụ án mạng bí hiểm đan xen các yếu tố tâm lý con người.',
+        gallery: [],
       },
       {
         id: 'proj9',
@@ -352,7 +357,7 @@ export const content: {
         categoryLabel: 'Phim điện ảnh',
         summary: 'Tác phẩm điện ảnh mang yếu tố kỳ ảo, tâm linh giả tưởng đầy sáng tạo xoay quanh những người làm nhiệm vụ giải nghiệp cho nhân gian.',
         poster: '/images/linhtram-poster.jpg',
-        photos: ['/images/linhtram-hinh1.jpg'],
+        gallery: ['/images/linhtram-hinh1.jpg'],
       },
       {
         id: 'proj10',
@@ -365,6 +370,7 @@ export const content: {
         categoryLabel: 'Chiến dịch TVC',
         summary: 'Chiến dịch truyền thông đầy cảm xúc với thông điệp: "Honda BỀN BỈ LĂN BÁNH, ĐI QUA KHÓ KHĂN CÙNG NHỮNG NGƯỜI HÙNG THẦM LẶNG" nhằm tôn vinh nỗ lực bền bỉ vượt khó khăn của người dân Việt Nam.',
         poster: '/images/honda-poster.jpg',
+        gallery: [],
         links: {
           youtube: 'https://www.youtube.com/watch?v=nrVs5mcA62o',
         },
@@ -380,6 +386,7 @@ export const content: {
         categoryLabel: 'Chiến dịch Marketing',
         summary: 'Chiến dịch truyền cảm hứng bằng những câu chuyện thư tình ngọt ngào của phái đẹp, kết nối hài hòa giữa giá trị thời trang của thương hiệu Dottie với cảm xúc chân thành từ khách hàng.',
         poster: '/images/aloveletterbyDottie.jpg',
+        gallery: [],
       },
       {
         id: 'proj12',
@@ -392,6 +399,7 @@ export const content: {
         categoryLabel: 'Chiến dịch PR',
         summary: 'Một chiến dịch PR ý nghĩa mang lại giá trị thực tế lớn, hỗ trợ 700 nhà bán lẻ liên kết vượt qua các khủng hoảng thị trường nhờ các gói hỗ trợ công nghệ tài chính trị giá 21 tỷ đồng.',
         poster: '/images/ifind-poster.jpg',
+        gallery: [],
       },
       {
         id: 'proj13',
@@ -404,6 +412,7 @@ export const content: {
         categoryLabel: 'Chiến dịch Khai trương',
         summary: 'Chiến dịch quảng bá ra mắt tổ hợp nhà sách khổng lồ với hai ý tưởng concept chủ đạo là "Rừng sách nhiệt đới" và "Thành phố sách Châu Âu" ngay giữa lòng Sài Gòn, thu hút hàng chục ngàn lượt tham quan.',
         poster: '/images/phuongnambookcity.jpg',
+        gallery: [],
       },
     ],
     awardsList: [
@@ -583,7 +592,7 @@ export const content: {
         categoryLabel: 'Feature Film',
         summary: 'A clever comedy-heist theatrical movie following sophisticated team of tricksters pulling off high-stakes operations. It captured the public\'s attention, breaking records with an impressive 121B VND gross earnings.',
         poster: '/images/sieulaygapsieulua-poster.jpg',
-        photos: ['/images/Sieulaygapsieulua-hinh1.jpg', '/images/sieulaygapsieulua-hinh2.jpg'],
+        gallery: ['/images/sieulaygapsieulua-hinh1.JPG', '/images/sieulaygapsieulua-hinh2.jpg', '/images/sieulaygapsieulua-hinh3.jpg', '/images/sieulaygapsieulua-hinh4.jpg'],
         links: {
           imdb: 'https://www.imdb.com/title/tt26938241',
           netflix: 'https://www.netflix.com/watch/81676438',
@@ -600,7 +609,7 @@ export const content: {
         categoryLabel: 'Feature Film',
         summary: 'A theatrical psychological horror film inspired by the spooky local urban legend "Chó đội nón mê". Exploring dark karma and family curses, it became a box office phenomenon, crossing the 108B VND milestone.',
         poster: '/images/quycau-poster.jpg',
-        photos: ['/images/quycau-hinh1.jpg', '/images/quycau-hinh2.jpg'],
+        gallery: ['/images/QuyCau-hinh1.jpg', '/images/quycau-hinh2.jpg', '/images/quycau-hinh3.jpg'],
         links: {
           imdb: 'https://www.imdb.com/title/tt30611573/?ref_=fn_t_1',
           galaxyPlay: 'https://galaxyplay.vn/title/quy-cau',
@@ -617,6 +626,7 @@ export const content: {
         categoryLabel: 'TV Series',
         summary: 'A TV drama series tracing the entrepreneurship journey, life lessons, and romance of young adults in contemporary Vietnam, delivering positive messages and deep family values.',
         poster: '/images/tuoitregiabaonhieu-poster.jpg',
+        gallery: [],
         links: {
           youtube: 'https://www.youtube.com/playlist?list=PLL0b_qIPgmjAdUmi2tn3tkK4ySvHruFKz',
         },
@@ -632,6 +642,7 @@ export const content: {
         categoryLabel: 'Web Series',
         summary: 'A comedy web series illustrating social trends and lighthearted everyday conflicts, amassing millions of streams on major digital platforms.',
         poster: '/images/thoitoicankhongkip-poster.jpg',
+        gallery: [],
         links: {
           galaxyPlay: 'https://fptplay.vn/xem-video/thoi-toi-can-khong-kip-672c3af11c6b4a7226e01c77',
         },
@@ -647,7 +658,7 @@ export const content: {
         categoryLabel: 'Short Film',
         summary: 'An emotional short film focused on maternal sacrifice and silent love, produced entirely within 14 days and taking home the grand prize.',
         poster: '/images/thientaicuame-poster.png',
-        photos: ['/images/thientaicuame-hinh1.jpg'],
+        gallery: ['/images/thientaicuame-hinh1.jpg', '/images/thientaicuame-hinh2.JPG'],
         links: {
           facebook: 'https://www.facebook.com/watch/?v=193821789671396',
         },
@@ -663,6 +674,7 @@ export const content: {
         categoryLabel: 'Short Film',
         summary: 'An artistic vertical short film that captures family dynamics through highly polished cinematography and a concise narrative format.',
         poster: '/images/Mexinloi-poster.jpg',
+        gallery: ['/images/mexinloi-hinh1.JPG', '/images/mexinloi-hinh2.JPG'],
         links: {
           tiktok: 'https://www.tiktok.com/@n.h.p120499/video/7156594876581219586?is_from_webapp=1&sender_device=pc&web_id=7359233908725351954',
         },
@@ -678,6 +690,7 @@ export const content: {
         categoryLabel: 'Feature Film',
         summary: 'The highly anticipated sequel to the legendary Vietnamese action film "The Rebel" (2007). The project promises high-octane martial arts coupled with a deep historical narrative.',
         poster: '/images/dongmauanhhung2-poster.jpg',
+        gallery: ['/images/dongmauanhhung2-hinh1.jpg'],
       },
       {
         id: 'proj8',
@@ -689,6 +702,7 @@ export const content: {
         category: 'upcoming',
         categoryLabel: 'Feature Film',
         summary: 'A suspenseful, mystical feature thriller set in the mysterious and spiritual Nui Cam mountains, solving a complex crime mystery.',
+        gallery: [],
       },
       {
         id: 'proj9',
@@ -701,7 +715,7 @@ export const content: {
         categoryLabel: 'Feature Film',
         summary: 'A highly imaginative spiritual fantasy feature film centering around spiritual agents tasked with balancing human karma.',
         poster: '/images/linhtram-poster.jpg',
-        photos: ['/images/linhtram-hinh1.jpg'],
+        gallery: ['/images/linhtram-hinh1.jpg'],
       },
       {
         id: 'proj10',
@@ -714,6 +728,7 @@ export const content: {
         categoryLabel: 'TVC Campaign',
         summary: 'A commercial campaign celebrating resilience: "Honda rolling persistently, overcoming hardships alongside silent everyday heroes."',
         poster: '/images/honda-poster.jpg',
+        gallery: [],
         links: {
           youtube: 'https://www.youtube.com/watch?v=nrVs5mcA62o',
         },
@@ -729,6 +744,7 @@ export const content: {
         categoryLabel: 'Marketing Campaign',
         summary: 'A heartwarming storytelling campaign using female love letters, linking Dottie\'s fashion appeal with real, authentic emotions.',
         poster: '/images/aloveletterbyDottie.jpg',
+        gallery: [],
       },
       {
         id: 'proj12',
@@ -741,6 +757,7 @@ export const content: {
         categoryLabel: 'PR Campaign',
         summary: 'A impactful public relations initiative providing financial and tech support bundles valued at 21B VND to help 700 retail stores weather market shifts.',
         poster: '/images/ifind-poster.jpg',
+        gallery: [],
       },
       {
         id: 'proj13',
@@ -753,6 +770,7 @@ export const content: {
         categoryLabel: 'Opening Campaign',
         summary: 'Promotional campaign introducing a massive new bookstore complex with concepts of "Tropical Jungle of Books" and "European Book City" in HCMC.',
         poster: '/images/phuongnambookcity.jpg',
+        gallery: [],
       },
     ],
     awardsList: [

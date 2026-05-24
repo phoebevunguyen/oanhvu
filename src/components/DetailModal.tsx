@@ -167,21 +167,18 @@ export default function DetailModal({ isOpen, onClose, item }: DetailModalProps)
               </div>
 
               {/* Image Gallery */}
-              {isProject(item) && item.photos && item.photos.length > 0 && (
+              {isProject(item) && item.gallery && item.gallery.length > 0 && (
                 <div className="pt-4 border-t border-slate-100">
                   <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">
                     {t.portfolio.tabs.released === 'Phim đã phát hành' ? 'HÌNH ẢNH DỰ ÁN' : 'PROJECT IMAGES'}
                   </h4>
-                  <div className="grid grid-cols-2 gap-4">
-                    {item.photos.slice(0, 2).map((photo, idx) => (
-                      <div 
-                        key={idx} 
-                        className="relative overflow-hidden bg-slate-50 border border-slate-100 w-full max-w-[240px] aspect-[4/3] rounded-none mx-auto"
-                      >
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                    {item.gallery.map((photo, idx) => (
+                      <div key={idx} className="overflow-hidden">
                         <img 
                           src={photo} 
                           alt={`Gallery photo ${idx + 1}`} 
-                          className="w-full h-full object-contain"
+                          className="w-full h-auto rounded-lg object-contain"
                         />
                       </div>
                     ))}
