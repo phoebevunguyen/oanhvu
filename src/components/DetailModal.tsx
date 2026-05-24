@@ -166,59 +166,28 @@ export default function DetailModal({ isOpen, onClose, item }: DetailModalProps)
                 )}
               </div>
 
-              {/* 3 Image Gallery / Placeholders */}
-              <div className="pt-4 border-t border-slate-100">
-                {!isProject(item) && (
+              {/* Image Gallery */}
+              {isProject(item) && item.photos && item.photos.length > 0 && (
+                <div className="pt-4 border-t border-slate-100">
                   <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">
-                    {t.portfolio.tabs.released === 'Phim đã phát hành' ? 'HÌNH ẢNH MINH HỌA' : 'GALLERY / PORTFOLIO IMAGES'}
+                    {t.portfolio.tabs.released === 'Phim đã phát hành' ? 'HÌNH ẢNH DỰ ÁN' : 'PROJECT IMAGES'}
                   </h4>
-                )}
-                <div className={`grid gap-4 ${isProject(item) ? 'grid-cols-2' : 'grid-cols-1 sm:grid-cols-3'}`}>
-                  {(isProject(item) ? [0, 1] : [0, 1, 2]).map((idx) => {
-                    const photo = isProject(item) && item.photos && item.photos[idx];
-                    if (photo) {
-                      return (
-                        <div 
-                          key={idx} 
-                          className={`relative overflow-hidden shadow-2xs mx-auto bg-slate-50 border border-slate-100 ${
-                            isProject(item) 
-                              ? 'w-full max-w-[240px] aspect-square rounded-none' 
-                              : 'w-full aspect-video sm:aspect-square md:h-52 rounded-2xl'
-                          }`}
-                        >
-                          <img 
-                            src={photo} 
-                            alt={`Gallery photo ${idx + 1}`} 
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                      );
-                    }
-                    return (
-                      <div
-                        key={idx}
-                        className={`bg-slate-50 border-2 border-dashed border-slate-200 flex flex-col items-center justify-center text-slate-300 hover:bg-slate-100/80 transition-colors shadow-2xs mx-auto ${
-                          isProject(item) 
-                            ? 'w-full max-w-[240px] aspect-square rounded-none p-4' 
-                            : 'w-full aspect-video sm:aspect-square md:h-52 rounded-2xl p-6'
-                        }`}
+                  <div className="grid grid-cols-2 gap-4">
+                    {item.photos.slice(0, 2).map((photo, idx) => (
+                      <div 
+                        key={idx} 
+                        className="relative overflow-hidden bg-slate-50 border border-slate-100 w-full max-w-[240px] aspect-square rounded-none mx-auto"
                       >
-                        <svg 
-                          className="text-slate-400/80 w-10 h-10 mb-3" 
-                          fill="none" 
-                          viewBox="0 0 24 24" 
-                          stroke="currentColor"
-                        >
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                        </svg>
-                        <span className="uppercase tracking-widest font-bold text-slate-400 text-xs">
-                          Photo {idx + 1}
-                        </span>
+                        <img 
+                          src={photo} 
+                          alt={`Gallery photo ${idx + 1}`} 
+                          className="w-full h-full object-cover"
+                        />
                       </div>
-                    );
-                  })}
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
 
               {/* Action Platform Links */}
               {isProject(item) && item.links && Object.keys(item.links).length > 0 && (

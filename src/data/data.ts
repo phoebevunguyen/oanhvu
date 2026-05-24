@@ -172,7 +172,7 @@ export const content: {
         company: 'Freelance',
         duration: '2025 - Hiện tại',
         details: [
-          'The Rebel 2 (Dòng Máu Anh Hùng 2) | Chánh Phương Film: giai đoạn phát triển kịch bản (pending)',
+          'Dòng Máu Anh Hùng 2 - Nhạn Trắng Cà Mau | Chánh Phương Film: giai đoạn phát triển kịch bản (pending)',
           'Án Mạng Núi Cấm | 89sGroup: giai đoạn hậu kỳ',
           'Linh Trạm – Bậc Thầy Giải Nghiệp | CangProduction: giai đoạn tiền kỳ'
         ],
@@ -183,7 +183,7 @@ export const content: {
         company: '89sGroup',
         duration: '2020 - 2025',
         details: [
-          'Thành công doanh thu phòng vé: Đồng biên kịch kịch bản các phim điện ảnh đạt doanh thu phòng vé cao tại Việt Nam: Siêu Lừa Gặp Siêu Lầy (121 tỷ VNĐ) và Quỷ Cẩu (108 tỷ VNĐ).',
+          'Thành công doanh thu phòng vé: Biên kịch các phim điện ảnh đạt doanh thu phòng vé cao tại Việt Nam: Siêu Lừa Gặp Siêu Lầy (121 tỷ VNĐ) và Quỷ Cẩu (108 tỷ VNĐ).',
           'Lập kế hoạch chiến lược & Phát triển Concept: Phối hợp với đội ngũ Marketing và Design để xây dựng visual concept, kế hoạch nội dung sáng tạo và kịch bản truyền thông, đảm bảo đồng nhất với linh hồn thương hiệu cốt lõi và mục tiêu thương mại của bộ phim.',
           'Định vị Thương hiệu Tài năng: Xây dựng và duy trì nhận diện thương hiệu nhất quán cho Đạo diễn Võ Thanh Hòa và Talent Team trên nhiều nền tảng, tăng cường vị thế trong ngành và mức độ tương tác của khán giả.'
         ],
@@ -520,7 +520,7 @@ export const content: {
         company: 'Freelance',
         duration: '2025 - Present',
         details: [
-          'The Rebel 2 (Dong Mau Anh Hung 2) | Chánh Phương Film: in development stage (pending)',
+          'The Rebel 2 | Chánh Phương Film: in development stage (pending)',
           'An Mang Nui Cam | 89sGroup: in post-production stage',
           'Linh Tram – Bac Thay Giai Nghiep | CangProduction: in pre-production Stage'
         ],
@@ -531,7 +531,7 @@ export const content: {
         company: '89sGroup',
         duration: '2020 - 2025',
         details: [
-          'Box Office Success: Co-wrote scripts for feature films achieving high Vietnam box office revenue: Hustler vs Scammer (Sieu Lua Gap Sieu Lay) - 121B VND and Crimson Snout (Quy Cau) - 108B VND.',
+          'Box Office Success: Screenwriter for feature films achieving high Vietnam box office revenue: Hustler vs Scammer (Sieu Lua Gap Sieu Lay) - 121B VND and Crimson Snout (Quy Cau) - 108B VND.',
           'Strategic Planning & Concept Development: Collaborated with Marketing and Design teams to build visual concepts, creative content plan and communication scripts, ensuring alignment with the film\'s core brand soul and commercial objectives.',
           'Talent Branding: Defined and maintained consistent brand identities for Director Vo Thanh Hoa and the Talent Team across multiple platforms, significantly increasing industry positioning and audience engagement.'
         ],

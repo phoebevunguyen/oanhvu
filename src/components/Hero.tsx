@@ -17,13 +17,13 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         {/* Text Area */}
         <motion.div 
-          className="lg:col-span-7 flex flex-col space-y-6 text-left"
+          className="lg:col-span-8 flex flex-col space-y-6 text-left"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: 'easeOut' }}
         >
           {/* Title */}
-          <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-[2.75rem] xl:text-6xl font-semibold tracking-tight text-slate-800 leading-[1.1]">
+          <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-[2.5rem] xl:text-[3.25rem] 2xl:text-[4rem] font-semibold tracking-tight text-slate-800 leading-[1.1]">
             <span className="block">{t.hero.title}</span>
           </h1>
 
@@ -62,12 +62,12 @@ export default function Hero() {
 
         {/* Profile Image Placeholder with Creative Borders */}
         <motion.div 
-          className="lg:col-span-5 flex justify-center items-center"
+          className="lg:col-span-4 flex justify-center items-center"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
         >
-          <div className="relative w-80 h-80 sm:w-96 sm:h-96 md:w-[420px] md:h-[420px] lg:w-full lg:max-w-[380px] lg:aspect-square">
+          <div className="relative w-80 h-80 sm:w-96 sm:h-96 md:w-[420px] md:h-[420px] lg:w-full lg:max-w-[340px] lg:aspect-square">
             {/* Minimalist offset border frame */}
             <div className="absolute top-4 left-4 -inset-0 border border-slate-200/80 -z-10 animate-pulse duration-[5000ms]" />
             
