@@ -124,8 +124,8 @@ export const content: {
     },
     about: {
       title: 'Tại sao mình làm phim?',
-      p1: 'Bắt đầu sự nghiệp trong ngành marketing, mình luôn thích dùng những câu chuyện để đưa sản phẩm đến gần với khách hàng. Và rồi mình bị hấp dẫn bởi khả năng kể chuyện của phim ảnh. Phim ảnh không chỉ kể chuyện mà còn đem đến cho mình cho mình những trải nghiệm cảm xúc sống động, những suy tư và chiêm nghiệm về cuộc đời. Ngay trước đại dịch Covid, mình đã có quyết định bước ngoặc là dấn thân vào ngành phim từ con số 0.',
-      p2: 'Những năm tháng làm phim giúp mình thấu hiểu bản thân và thế giới xung quanh một cách sâu sắc hơn, giúp mình trưởng thành và rộng mở hơn. Vì vậy mình tiếp tục tìm cơ hội để được làm phim, được kể những câu chuyện chạm tới người khác và để lại cho họ câu hỏi trăn trở mà chính mình cũng có trong cuộc sống.',
+      p1: 'Bắt đầu sự nghiệp trong ngành marketing, mình luôn thích dùng những câu chuyện để đưa sản phẩm đến gần với khách hàng. Và rồi mình bị hấp dẫn bởi khả năng kể chuyện của phim ảnh. Không chỉ kể chuyện, phim ảnh đem đến mình những trải nghiệm cảm xúc sống động, những câu hỏi nhức nhối và những góc nhìn rất khác về cuộc đời. Ngay trước đại dịch Covid, mình đã có quyết định bước ngoặc là dấn thân vào ngành phim từ con số 0.',
+      p2: 'Những năm tháng làm phim giúp mình thấu hiểu bản thân và thế giới xung quanh một cách sâu sắc hơn, giúp mình trưởng thành và rộng mở hơn. Vì vậy mình tiếp tục hành trình làm phim để được kể những câu chuyện chạm đến người khác và đem đến cho họ những suy tư trăn trở mà chính mình luôn có trong cuộc sống.',
       p3: 'Khi làm phim thương mại, mình không chỉ kể chuyện bằng cảm xúc hay góc nhìn cá nhân, mình kể chuyện bằng tư duy của một người làm marketing, mình nhìn thị trường và đặt khán giả làm trung tâm để tạo ra những kịch bản có tính thương mại cao.',
     },
     experience: {
@@ -221,7 +221,7 @@ export const content: {
         role: 'Digital Marketing Executive',
         company: 'YouNet Group',
         companyUrl: 'https://www.younetgroup.com/vi/',
-        companyDescription: 'YouNet Group là đơn vị cung cấp hệ sinh thái giải pháp social media toàn diện và hàng đầu cho doanh nghiệp tại Đông Nam Á.',
+        companyDescription: 'YouNet Group là tập đoàn tiên phong cung cấp hệ sinh thái Data Intelligence cho Digital Commerce tại Đông Nam Á, bao gồm các giải pháp đo lường, quản trị đồng bộ, mở rộng và cải tiến chuỗi hoạt động marketing',
         duration: '2015 - 2016',
         details: [
           'Xây dựng và quản lý chiến lược nội dung trên social media cho các công ty thành viên, triển khai các hoạt động marketing tích hợp phù hợp với KPI kinh doanh.',
@@ -487,8 +487,8 @@ export const content: {
     },
     about: {
       title: 'Why I Make Films',
-      p1: 'Starting my career in marketing, I always loved using stories to bring products closer to customers. Then, I was captivated by the storytelling power of cinema. Films do not just tell stories; they bring me vivid emotional experiences, deep reflections, and contemplations about life. Right before the Covid pandemic, I made a turning point decision to enter the film industry from scratch.',
-      p2: 'Years of filmmaking have helped me understand myself and the world around me more deeply, helping me grow and become more open-minded. Therefore, I continue to seek opportunities to make films, to tell stories that touch others, and to leave them with the lingering questions that I also have in my own life.',
+      p1: 'Starting my career in marketing, I always loved using stories to bring products closer to customers. Then, I was captivated by the storytelling power of cinema. Beyond just telling stories, films bring me vivid emotional experiences, painful questions, and very different perspectives on life. Right before the Covid pandemic, I made a turning point decision to enter the film industry from scratch.',
+      p2: 'Years of filmmaking have helped me understand myself and the world around me more deeply, helping me grow and become more open-minded. Therefore, I continue my filmmaking journey to tell stories that touch others and leave them with the lingering reflections that I always have in my own life.',
       p3: 'When making commercial films, I don\'t just tell stories based on emotion or personal perspectives. I tell stories with a marketer\'s mindset, analyzing the market and keeping the audience at the center to create screenplays with high commercial value.',
     },
     experience: {
@@ -584,7 +584,7 @@ export const content: {
         role: 'Digital Marketing Executive',
         company: 'YouNet Group',
         companyUrl: 'https://www.younetgroup.com/',
-        companyDescription: 'YouNet Group is a leading provider of comprehensive social media solutions and ecosystem for businesses in Southeast Asia.',
+        companyDescription: 'YouNet Group is a pioneer in providing a Data Intelligence ecosystem for Digital Commerce in Southeast Asia, including solutions for measurement, synchronized governance, scaling, and optimizing marketing operations.',
         duration: '2015 - 2016',
         details: [
           'Build and manage social media content strategy for member companies, deploying integrated marketing activities aligned with business KPIs.',

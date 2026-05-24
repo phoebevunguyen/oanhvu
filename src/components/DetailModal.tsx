@@ -165,11 +165,7 @@ export default function DetailModal({ isOpen, onClose, item }: DetailModalProps)
                 {isExperience(item) && (
                   <div className="space-y-4">
                     {item.companyDescription && (
-                      <div className="space-y-2 bg-slate-50 border border-slate-100 p-4 rounded-2xl">
-                        <h4 className="text-xs font-bold text-slate-500 uppercase tracking-widest flex items-center space-x-2">
-                          <Info size={14} className="text-accent-blue" />
-                          <span>{t.portfolio.tabs.released === 'Phim đã phát hành' ? 'THÔNG TIN DOANH NGHIỆP' : 'COMPANY PROFILE'}</span>
-                        </h4>
+                      <div className="bg-slate-50 border border-slate-100 p-4 rounded-2xl">
                         <p className="text-slate-600 text-sm leading-relaxed font-light italic">
                           {item.companyDescription}
                         </p>
