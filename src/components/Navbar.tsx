@@ -41,7 +41,7 @@ export default function Navbar() {
         {/* Logo / Brand Name */}
         <a href="#" className="flex flex-col">
           <span className="font-heading text-lg md:text-xl font-bold tracking-wider text-slate-800 leading-none">
-            HoangOanh
+            {language === 'vn' ? 'HoangOanh' : 'Phoebe'}
           </span>
         </a>
 

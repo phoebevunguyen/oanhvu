@@ -115,7 +115,7 @@ export const content: {
       downloadCv: 'Tải CV',
     },
     hero: {
-      title: 'VŨ NGUYỄN HOÀNG OANH',
+      title: 'Vũ Nguyễn Hoàng Oanh',
       role: 'Người kể chuyện',
       quote: '"Mình tin vào sức mạnh của những câu chuyện. Chúng ta kết nối với nhau, cùng trải nghiệm các cung bậc cảm xúc và cùng tin vào những thứ vô hình thông qua những câu chuyện được kể từ đời này qua đời khác."',
       cta: 'Liên hệ hợp tác',
@@ -459,7 +459,7 @@ export const content: {
       downloadCv: 'Download CV',
     },
     hero: {
-      title: 'VU NGUYEN HOANG OANH',
+      title: 'Vu Nguyen Hoang Oanh',
       role: 'Storyteller',
       quote: '"I believe in the power of stories. We connect with each other, sharing emotional journeys and believing in the invisible through stories told from generation to generation."',
       cta: "Let's Collaborate",

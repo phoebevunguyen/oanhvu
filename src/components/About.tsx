@@ -14,17 +14,17 @@ export default function About() {
       <div className="absolute top-10 right-0 w-48 h-48 rounded-full bg-pastel-green/30 blur-3xl -z-10" />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-stretch">
           
           {/* Left Column: Image Placeholder */}
           <motion.div 
-            className="lg:col-span-5 order-last lg:order-first flex justify-center"
+            className="lg:col-span-5 order-last lg:order-first flex justify-center items-stretch"
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: '-100px' }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
           >
-            <div className="relative w-full max-w-[340px] aspect-[3/4]">
+            <div className="relative w-full max-w-[400px] aspect-[3/4] lg:aspect-auto lg:h-full">
               {/* Minimalist offset border frame */}
               <div className="absolute top-4 left-4 -inset-0 border border-slate-200/80 -z-10 animate-pulse duration-[6000ms]" />
               
